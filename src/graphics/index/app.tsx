@@ -7,7 +7,9 @@ const app:FC = () => {
   });
 
   useEffect(() => {
-    replicate("Replicant"); // You can subscribe to replicants with this method
+    replicate("keypressRep");
+    replicate("currVSRep")
+    replicate("onOffRep") // You can subscribe to replicants with this method
   }, []);
 
   useEffect(() => {
@@ -19,15 +21,20 @@ const app:FC = () => {
   }, []);
 
   const {
-    replicants: { Replicant }, // Used to take out a replicant from the replicants object
+    replicants: { keypressRep, currVSRep, onOffRep }, // Used to take out a replicant from the replicants object
   } = state || {};
-  console.log(Replicant)
-
-  return (
-    <div>
-      <h1>Hello, this is one of your graphics</h1>    
-    </div>
-  );
-};
+  if(!keypressRep || !currVSRep || !onOffRep) {
+    return (null)
+  }
+  const currentImageLink = currVSRep[parseInt(keypressRep, 10) === 0 ? 9 : keypressRep-1].link
+  if(onOffRep === "on"){
+    return (
+      <div>
+        <img className='Current' src={currentImageLink} alt=''/>    
+      </div>
+    );
+  };
+  return(null)
+}
 
 export default app;

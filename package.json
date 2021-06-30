@@ -11,6 +11,11 @@
     "src",
     "extension"
   ],
+  "keywords": [
+    "template",
+    "react",
+    "nodecg-bundle"
+  ],
   "scripts": {
     "start": "start npm run watchDashboard && start npm run watchGraphics && start npm run watchExtension",
     "watchDashboard": "parcel watch src/dashboard/*.html --out-dir dashboard --public-url ./",
@@ -21,34 +26,32 @@
     "buildExtension": "parcel build src/extension/index.ts --out-dir extension --target node --bundle-node-modules",
     "build": "start npm run buildDashboard && start npm run buildGraphics && start npm run buildExtension"
   },
-  "keywords": [
-    "template",
-    "react",
-    "nodecg-bundle"
+  "externals": [
+    "iohook"
   ],
+  "iohook": {
+    "targets": [
+      "node-83"
+    ],
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "arches": [
+      "x64",
+      "ia32"
+    ]
+  },
   "nodecg": {
     "compatibleRange": "^1.1.1",
     "dashboardPanels": [
       {
-        "name": "panel1",
-        "title": "Panel1",
-        "width": 2,
-        "file": "panel.html",
-        "headerColor": "#525F78"
-      },
-      {
-        "name": "panel2",
-        "title": "Panel2",
-        "width": 2,
-        "file": "panel2.html",
-        "headerColor": "#525F78"
-      },
-      {
-        "name": "panel3",
-        "title": "Panel3",
-        "width": 2,
-        "file": "panel3.html",
-        "headerColor": "#525F78"
+        "name": "Rainbow 6 SWITCHER",
+        "title": "Control panel",
+        "file": "Control_panel.html",
+        "headerColor": "#525F78",
+        "fullbleed": true
       }
     ],
     "graphics": [
@@ -88,10 +91,13 @@
   },
   "dependencies": {
     "flux": "^4.0.1",
-    "iohook": "^0.9.3",
+    "formik": "^2.2.9",
+    "iohook": "^0.6.6",
+    "parcel-plugin-externals": "^0.5.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-query": "^3.13.8",
+    "react-select": "^4.3.1",
     "regenerator-runtime": "^0.13.7"
   }
 }

@@ -17,4 +17,5 @@ const init = async () => {
 	nodecg.log.info("Initializing backend...")
 
 	// Modules
+	require('./Keypress')
 }

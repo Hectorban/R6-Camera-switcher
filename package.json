@@ -15,10 +15,10 @@
     "start": "start npm run watchDashboard && start npm run watchGraphics && start npm run watchExtension",
     "watchDashboard": "parcel watch src/dashboard/*.html --out-dir dashboard --public-url ./",
     "watchGraphics": "parcel watch src/graphics/*.html --out-dir graphics --public-url ./",
-    "watchExtension": "parcel watch src/extension/index.ts --out-dir extension --target node",
+    "watchExtension": "parcel watch src/extension/index.ts --out-dir extension --target node --bundle-node-modules",
     "buildDashboard": "parcel build src/dashboard/*.html --out-dir dashboard --public-url ./",
     "buildGraphics": "parcel build src/graphics/*.html --out-dir graphics --public-url ./",
-    "buildExtension": "parcel build src/extension/index.ts --out-dir extension --target node",
+    "buildExtension": "parcel build src/extension/index.ts --out-dir extension --target node --bundle-node-modules",
     "build": "start npm run buildDashboard && start npm run buildGraphics && start npm run buildExtension"
   },
   "keywords": [

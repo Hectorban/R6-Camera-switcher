@@ -11,7 +11,7 @@ const currentVersusRep = nodecg.Replicant("currVSRep")
 const app:FC = () => {
   const [BlueTeam, setBlueTeam] = useState()
   const [OrangeTeam, setOrangeTeam] = useState()
-  
+
   function handleblueOnDragEnd(result) {
     if (!result.destination) return;
 
@@ -23,11 +23,12 @@ const app:FC = () => {
     items[2].color = "Blue"
     items[3].color = "Blue"
     items[4].color = "Blue"
-    const fiveClamp = items.splice(0,5)
+    const fiveClamp = items.splice(0,4)
     setBlueTeam(fiveClamp);
     const currentVersusArray = OrangeTeam.concat(BlueTeam)
     currentVersusRep.value = currentVersusArray
   }
+
   function handleorangeOnDragEnd(result) {
     if (!result.destination) return;
 
@@ -39,7 +40,7 @@ const app:FC = () => {
     items[2].color = "Orange"
     items[3].color = "Orange"
     items[4].color = "Orange"
-    const fiveClamp = items.splice(0,5)
+    const fiveClamp = items.splice(0,4)
     setOrangeTeam(fiveClamp);
     const currentVersusArray = OrangeTeam.concat(BlueTeam)
     currentVersusRep.value = currentVersusArray

@@ -9,7 +9,6 @@ const onOffRep = nodecg.Replicant("onOffRep")
 ioHook.on('keydown', (event) => {
   const {rawcode} = event
   const keyPressString = String.fromCharCode(rawcode)
-  console.log(rawcode)
   if(rawcode >= 48 && rawcode <= 57) {
     keypresRep.value = keyPressString
     onOffRep.value = "on"

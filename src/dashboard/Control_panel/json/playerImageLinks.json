@@ -2,45 +2,232 @@
 	"9z": [
 		{
 			"name": "atlas",
-			"link": "https://i.imgur.com/3fTCrx2.png"
+			"link": "https://www.dropbox.com/s/wlc3tvxxzm76dza/Atlas.png?dl=1",
+			"color": ""
 		},
 		{
-			"name": "DenikeAzul",
-			"link": "https://i.imgur.com/xtcT17w.png"
+			"name": "Denike",
+			"link": "https://www.dropbox.com/s/b7nslqe14kc2xg8/Denike.png?dl=1",
+			"color": ""
 		},
 		{
-			"name": "PechitoAzul",
-			"link": "https://i.imgur.com/03Jjt5m.png"
+			"name": "Pechito",
+			"link": "https://www.dropbox.com/s/znxsn3mqlpvfyqh/Pechito.png?dl=1",
+			"color": ""
 		},
 		{
-			"name": "PepeAzul",
-			"link": "https://i.imgur.com/IyMLIAy.png"
+			"name": "Pepe9z",
+			"link": "https://www.dropbox.com/s/gvjeq4weeyzyxsj/Pepe9z.png?dl=1",
+			"color": ""
 		},
 		{
-			"name": "atlas",
-			"link": "https://i.imgur.com/rNn2Gm3.png"
+			"name": "Rick",
+			"link": "https://www.dropbox.com/s/z7xhg5wgkniv7yw/Rick.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Zeta",
+			"link": "https://www.dropbox.com/s/zz1getlzoq2hy9y/Zeta.png?dl=1",
+			"color": ""
 		}
 	],
 	"INF": [
 		{
-			"name": "CocoMilazorNaranja",
-			"link": "https://i.imgur.com/b6Kaapp.png"
+			"name": "CocoMilazor",
+			"link": "https://www.dropbox.com/s/iyxi84ynv9i1sk0/Cocomilazor.png?dl=1",
+			"color": ""
 		},
 		{
-			"name": "DegoNaranja",
-			"link": "https://i.imgur.com/tUpWwWG.png"
+			"name": "Dego",
+			"link": "https://www.dropbox.com/s/w14zp18ha5aqyrv/Dego.png?dl=1",
+			"color": ""
 		},
 		{
-			"name": "FerchieNaranja",
-			"link": "https://i.imgur.com/zUq8bl6.png"
+			"name": "Ferchie",
+			"link": "https://www.dropbox.com/s/fizk6je8h410r62/Ferchie.png?dl=1",
+			"color": ""
 		},
 		{
 			"name": "LautixsNaranja",
-			"link": "https://i.imgur.com/5NrbIBN.png"
+			"link": "https://www.dropbox.com/s/dqftnj8pml12ncl/Lautixs.png?dl=1",
+			"color": ""
 		},
 		{
 			"name": "unknown",
-			"link": ""
+			"link": "",
+			"color": ""
+		}
+	],
+	"CA": [
+		{
+			"name": "Dzr",
+			"link": "https://www.dropbox.com/s/xeyupkout0e2p1r/Dzr.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Forbi",
+			"link": "https://www.dropbox.com/s/aenu9syirniwtj7/Forbi.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Lazing",
+			"link": "https://www.dropbox.com/s/54snsqu57dtfj1s/Lazing.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Rembrandt",
+			"link": "https://www.dropbox.com/s/va51xzxd2bl0ozs/Rembrandt.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "unknown",
+			"link": "",
+			"color": ""
+		}
+	],
+	"FG": [
+		{
+			"name": "Dirty",
+			"link": "https://www.dropbox.com/s/3ew1nec4hq0aqiq/Dirty.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "NKT",
+			"link": "https://www.dropbox.com/s/o29413atdgt22bk/NKT.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Shoxo",
+			"link": "https://www.dropbox.com/s/5cwa3wwnox9yj3x/Shoxo.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "VJ",
+			"link": "https://www.dropbox.com/s/j28hwn59jm89nxq/VJ.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Wetz",
+			"link": "https://www.dropbox.com/s/tjwwkry4kg36ro5/Wetz.png?dl=i",
+			"color": ""
+		},
+		{
+			"name": "Yekko",
+			"link": "https://www.dropbox.com/s/pl6ttbbcxlw8qeg/Yekko.png?dl=1",
+			"color": ""
+		}
+	],
+	"LDM": [
+		{
+			"name": "AlpacaLDM",
+			"link": "https://www.dropbox.com/s/mxshgxxjysl6twf/AlpacaLDM.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "L1mon4d4",
+			"link": "https://www.dropbox.com/s/9s80s7kp18dpj7o/L1mon4d4.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Re77er",
+			"link": "hhttps://www.dropbox.com/s/anc0h8gtkkdrm27/Re77er.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "SkillzLDM",
+			"link": "https://www.dropbox.com/s/cmvnyxsc6r5ckhz/SkillzLDM.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Slemds",
+			"link": "https://www.dropbox.com/s/wmz46an595y4cgl/Slemds.png?dl=1",
+			"color": ""
+		},
+		{
+			"name": "Supremaa",
+			"link": "https://www.dropbox.com/s/nr7vmatxgzqilsx/Supremaa.png?dl=1",
+			"color": ""
+		}
+	],
+	"LEV": [
+		{
+			"name": "Dauert",
+			"link": "https://www.dropbox.com/s/3b2r19sh821k3mr/Dauert.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "elBarto",
+			"link": "https://www.dropbox.com/s/saeaqvk2qlok3l0/elBarto.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Geere",
+			"link": "https://www.dropbox.com/s/7qq8aa9heiw5l05/Geere.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Hazeldorf",
+			"link": "https://www.dropbox.com/s/qki1l72jx8y893r/Hazeldorf.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "unknown",
+			"link": "",
+			"color": ""
+		}
+	],
+	"MVG": [
+		{
+			"name": "Meight",
+			"link": "https://www.dropbox.com/s/hpht972n0bvg4z6/Meight.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Ptan",
+			"link": "https://www.dropbox.com/s/2rmv556wy6spsvh/Ptan.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Ragnar",
+			"link": "https://www.dropbox.com/s/2g3e7p8rsgqjtx7/Ragnar.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Soco",
+			"link": "https://www.dropbox.com/s/otjee2910w76apz/Soco.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Tom",
+			"link": "https://www.dropbox.com/s/r85ncap1feeq5xd/Tom.png?dl=0",
+			"color": ""
+		}
+	],
+	"NG": [
+		{
+			"name": "Cueva",
+			"link": "https://www.dropbox.com/s/oblgmm8gwuuwv7j/Cueva.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Flyker",
+			"link": "https://www.dropbox.com/s/up9ccwe3p09xhjt/Flyker.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Krafter",
+			"link": "https://www.dropbox.com/s/c2hfywy9ihdg0wx/Kraften.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Mashert",
+			"link": "https://www.dropbox.com/s/h4eqr7wopbp7oz3/Mashert.png?dl=0",
+			"color": ""
+		},
+		{
+			"name": "Tucu",
+			"link": "https://www.dropbox.com/s/duegi3k6hby1kcz/Tucu.png?dl=0",
+			"color": ""
 		}
 	]
 }

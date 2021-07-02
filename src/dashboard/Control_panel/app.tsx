@@ -5,12 +5,13 @@ import { Formik, Field, Form } from 'formik';
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import MasterList from './json/playerImageLinks.json'
 import './app.scss'
+import { Team } from '~types/teamLinksTypes';
 
 const currentVersusRep = nodecg.Replicant("currVSRep")
 
 const app:FC = () => {
-  const [BlueTeam, setBlueTeam] = useState()
-  const [OrangeTeam, setOrangeTeam] = useState()
+  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList.FG)
+  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList.CA)
 
   function handleblueOnDragEnd(result) {
     if (!result.destination) return;

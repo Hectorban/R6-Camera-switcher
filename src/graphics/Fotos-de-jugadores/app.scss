@@ -1,0 +1,15 @@
+.app {
+	display: grid;
+	width: 1920px;
+	height: 1080px;
+	.Backgorund, .Current {
+		grid-column: 1;
+		grid-row: 1;
+	}
+	.Backgorund {
+		z-index: 0;
+	}
+	.Current {
+		z-index: 1;
+	}
+}

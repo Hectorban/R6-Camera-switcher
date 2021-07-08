@@ -1,6 +1,8 @@
 import React, {FC, useEffect, useState} from 'react';
 import NCGStore, { replicate } from "../../stores/NodecgStore";
 
+import './app.scss'
+
 const app:FC = () => {
   const [state, setState] = useState({
     replicants: NCGStore.getReplicants(),
@@ -25,12 +27,12 @@ const app:FC = () => {
   } = state || {};
 
   if(!keypressRep || !currVSRep || !onOffRep) {
-    console.log(currVSRep)
     return (null)
   }
   const backgroundImages = {
      Orange: "https://www.dropbox.com/s/dj8xfvnw11oelae/Fondo%20Naranja.png?dl=1",
-     Blue: "https://www.dropbox.com/s/kynu2kb2dc6rsgb/Fondo%20Azul.png?dl=1"
+     Blue: "https://www.dropbox.com/s/kynu2kb2dc6rsgb/Fondo%20Azul.png?dl=1",
+     noPhoto: ""
   }
 
   const currentImageLink = currVSRep[parseInt(keypressRep, 10) === 0 ? 9 : keypressRep-1].link

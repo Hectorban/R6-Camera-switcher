@@ -48,13 +48,13 @@
 			"color": ""
 		},
 		{
-			"name": "LautixsNaranja",
+			"name": "Lautixs",
 			"link": "https://www.dropbox.com/s/dqftnj8pml12ncl/Lautixs.png?dl=1",
 			"color": ""
 		},
 		{
-			"name": "unknown",
-			"link": "",
+			"name": "ChiLeaN",
+			"link": "Sin_Foto",
 			"color": ""
 		}
 	],
@@ -80,8 +80,13 @@
 			"color": ""
 		},
 		{
-			"name": "unknown",
-			"link": "",
+			"name": "wikS",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "mich4",
+			"link": "Sin_Foto",
 			"color": ""
 		}
 	],
@@ -108,7 +113,7 @@
 		},
 		{
 			"name": "Wetz",
-			"link": "https://www.dropbox.com/s/tjwwkry4kg36ro5/Wetz.png?dl=i",
+			"link": "https://www.dropbox.com/s/tjwwkry4kg36ro5/Wetz.png?dl=1",
 			"color": ""
 		},
 		{
@@ -130,11 +135,11 @@
 		},
 		{
 			"name": "Re77er",
-			"link": "hhttps://www.dropbox.com/s/anc0h8gtkkdrm27/Re77er.png?dl=1",
+			"link": "https://www.dropbox.com/s/anc0h8gtkkdrm27/Re77er.png?dl=1",
 			"color": ""
 		},
 		{
-			"name": "SkillzLDM",
+			"name": "Skillz",
 			"link": "https://www.dropbox.com/s/cmvnyxsc6r5ckhz/SkillzLDM.png?dl=1",
 			"color": ""
 		},
@@ -152,81 +157,87 @@
 	"LEV": [
 		{
 			"name": "Dauert",
-			"link": "https://www.dropbox.com/s/3b2r19sh821k3mr/Dauert.png?dl=0",
+			"link": "https://www.dropbox.com/s/3b2r19sh821k3mr/Dauert.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "elBarto",
-			"link": "https://www.dropbox.com/s/saeaqvk2qlok3l0/elBarto.png?dl=0",
+			"link": "https://www.dropbox.com/s/saeaqvk2qlok3l0/elBarto.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Geere",
-			"link": "https://www.dropbox.com/s/7qq8aa9heiw5l05/Geere.png?dl=0",
+			"link": "https://www.dropbox.com/s/7qq8aa9heiw5l05/Geere.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Hazeldorf",
-			"link": "https://www.dropbox.com/s/qki1l72jx8y893r/Hazeldorf.png?dl=0",
+			"link": "https://www.dropbox.com/s/qki1l72jx8y893r/Hazeldorf.png?dl=1",
 			"color": ""
 		},
 		{
-			"name": "unknown",
-			"link": "",
+			"name": "Kurt",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "DelBa",
+			"link": "Sin_Foto",
 			"color": ""
 		}
+		
 	],
 	"MVG": [
 		{
 			"name": "Meight",
-			"link": "https://www.dropbox.com/s/hpht972n0bvg4z6/Meight.png?dl=0",
+			"link": "https://www.dropbox.com/s/hpht972n0bvg4z6/Meight.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Ptan",
-			"link": "https://www.dropbox.com/s/2rmv556wy6spsvh/Ptan.png?dl=0",
+			"link": "https://www.dropbox.com/s/2rmv556wy6spsvh/Ptan.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Ragnar",
-			"link": "https://www.dropbox.com/s/2g3e7p8rsgqjtx7/Ragnar.png?dl=0",
+			"link": "https://www.dropbox.com/s/2g3e7p8rsgqjtx7/Ragnar.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Soco",
-			"link": "https://www.dropbox.com/s/otjee2910w76apz/Soco.png?dl=0",
+			"link": "https://www.dropbox.com/s/otjee2910w76apz/Soco.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Tom",
-			"link": "https://www.dropbox.com/s/r85ncap1feeq5xd/Tom.png?dl=0",
+			"link": "https://www.dropbox.com/s/r85ncap1feeq5xd/Tom.png?dl=1",
 			"color": ""
 		}
 	],
 	"NG": [
 		{
 			"name": "Cueva",
-			"link": "https://www.dropbox.com/s/oblgmm8gwuuwv7j/Cueva.png?dl=0",
+			"link": "https://www.dropbox.com/s/oblgmm8gwuuwv7j/Cueva.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Flyker",
-			"link": "https://www.dropbox.com/s/up9ccwe3p09xhjt/Flyker.png?dl=0",
+			"link": "https://www.dropbox.com/s/up9ccwe3p09xhjt/Flyker.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Krafter",
-			"link": "https://www.dropbox.com/s/c2hfywy9ihdg0wx/Kraften.png?dl=0",
+			"link": "https://www.dropbox.com/s/c2hfywy9ihdg0wx/Kraften.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Mashert",
-			"link": "https://www.dropbox.com/s/h4eqr7wopbp7oz3/Mashert.png?dl=0",
+			"link": "https://www.dropbox.com/s/h4eqr7wopbp7oz3/Mashert.png?dl=1",
 			"color": ""
 		},
 		{
 			"name": "Tucu",
-			"link": "https://www.dropbox.com/s/duegi3k6hby1kcz/Tucu.png?dl=0",
+			"link": "https://www.dropbox.com/s/duegi3k6hby1kcz/Tucu.png?dl=1",
 			"color": ""
 		}
 	]

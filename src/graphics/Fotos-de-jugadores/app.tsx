@@ -26,7 +26,7 @@ const app:FC = () => {
     replicants: { keypressRep, currVSRep, onOffRep }, // Used to take out a replicant from the replicants object
   } = state || {};
 
-  if(!keypressRep || !currVSRep || !onOffRep) {
+  if(!currVSRep || !onOffRep) {
     return (null)
   }
   const backgroundImages = {

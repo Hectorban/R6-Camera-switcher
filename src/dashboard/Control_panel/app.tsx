@@ -19,37 +19,33 @@ const app:FC = () => {
     const OrangeArraycopy = Array.from(OrangeTeam)
     const clamptofiveBlue = blueArraycopy.splice(0,5)  
     const clamptofiveOrange = OrangeArraycopy.splice(0,5)  
-    const currentVersusArray = clamptofiveBlue.concat(clamptofiveOrange)
-    currentVersusRep.value = currentVersusArray
-  }
-
-  function handleblueOnDragEnd(result) {
-    if (!result.destination) return;
-
-    const items = Array.from(BlueTeam);
-    const [reorderedItem] = items.splice(result.source.index, 1);
-    items.splice(result.destination.index, 0, reorderedItem);
-    items.map((player) => {
+    clamptofiveBlue.map((player) => {
       player.color = "Blue"
       if(player.link === 'Sin_Foto') {
         player.color = 'noPhoto'
       }
     })
-    setBlueTeam(items);
-  }
-
-  function handleorangeOnDragEnd(result) {
-    if (!result.destination) return;
-
-    const items = Array.from(OrangeTeam);
-    const [reorderedItem] = items.splice(result.source.index, 1);
-    items.splice(result.destination.index, 0, reorderedItem);
-    items.map((player) => {
+    clamptofiveOrange.map((player) => {
       player.color = "Orange"
       if(player.link === 'Sin_Foto') {
         player.color = 'noPhoto'
       }
     })
+    const currentVersusArray = clamptofiveBlue.concat(clamptofiveOrange)
+    currentVersusRep.value = currentVersusArray
+  }
+
+  function handleblueOnDragEnd(result) {
+    const items = Array.from(BlueTeam);
+    const [reorderedItem] = items.splice(result.source.index, 1);
+    items.splice(result.destination.index, 0, reorderedItem);
+    setBlueTeam(items);
+  }
+
+  function handleorangeOnDragEnd(result) {
+    const items = Array.from(OrangeTeam);
+    const [reorderedItem] = items.splice(result.source.index, 1);
+    items.splice(result.destination.index, 0, reorderedItem);
     setOrangeTeam(items);
   }
 
@@ -66,7 +62,6 @@ const app:FC = () => {
           setBlueTeam(MasterList[Blueteam])
           setOrangeTeam(MasterList[Orangeteam])
         }}
-        
       > 
         <Form className='team-selection'>
           <label id='blueTeam-label' htmlFor='Blueteam'>Equipo azul</label>
@@ -81,7 +76,7 @@ const app:FC = () => {
             <option value='NG'>NG</option>
           </Field>
           <label id='orangeTeam-label' htmlFor='OrangeTeam'>Equipo Naranja</label>
-          <Field id='orangeTeam' as='select' name='Orangeteam'>
+          <Field id='orangeTeam' as='select' name='Orangeteam'> 
             <option value='9z'>9z</option>
             <option value='CA'>CA</option>
             <option value='FG'>FG</option>
@@ -91,7 +86,7 @@ const app:FC = () => {
             <option value='MVG'>MVG</option>
             <option value='NG'>NG</option>
           </Field>
-          <button id='submit-button'type='submit'>Mostrar</button>
+          <button id='submit-button' type='submit'>Actualizar</button>
         </Form>
       </Formik>
       </div>
@@ -105,9 +100,7 @@ const app:FC = () => {
                         <Draggable key={name} draggableId={name} index={index}>
                           {(provided) => (
                             <li ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
-                              <p>
-                                { name }
-                              </p>
+                              <p>{name}</p>
                             </li>
                           )}
                         </Draggable>
@@ -127,9 +120,7 @@ const app:FC = () => {
                         <Draggable key={name} draggableId={name} index={index}>
                           {(provided) => (
                             <li ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps} >
-                              <p>
-                                { name }
-                              </p>
+                              <p>{name}</p>
                             </li>
                           )}
                         </Draggable>

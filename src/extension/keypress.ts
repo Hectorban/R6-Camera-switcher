@@ -14,7 +14,7 @@ ioHook.on('keydown', (event) => {
     onOffRep.value = "on"
   } 
   if(rawcode >= 96 && rawcode <= 105) {
-    keypresRep.value = keyReference[keyPressString]
+    keypresRep.value = keyReference[rawcode]
     onOffRep.value = "on"
   } 
   if(rawcode === 67) {

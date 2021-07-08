@@ -1,12 +1,18 @@
+body { 
+	background-color: rgba(0, 0, 0, 0); 
+	margin: 0px auto; 
+	overflow: hidden; 
+}
+
 .app {
 	display: grid;
 	width: 1920px;
 	height: 1080px;
-	.Backgorund, .Current {
+	.Background, .Current {
 		grid-column: 1;
 		grid-row: 1;
 	}
-	.Backgorund {
+	.Background {
 		z-index: 0;
 	}
 	.Current {

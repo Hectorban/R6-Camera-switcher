@@ -70,7 +70,7 @@ const app:FC = () => {
             <option value='CA'>CA</option>
             <option value='FG'>FG</option>
             <option value='INF'>INF</option>
-            <option value='LDM'>LDM</option>
+            <option value='N5R'>N5R</option>
             <option value='LEV'>LEV</option>
             <option value='MVG'>MVG</option>
             <option value='NG'>NG</option>
@@ -81,7 +81,7 @@ const app:FC = () => {
             <option value='CA'>CA</option>
             <option value='FG'>FG</option>
             <option value='INF'>INF</option>
-            <option value='LDM'>LDM</option>
+            <option value='N5R'>N5R</option>
             <option value='LEV'>LEV</option>
             <option value='MVG'>MVG</option>
             <option value='NG'>NG</option>

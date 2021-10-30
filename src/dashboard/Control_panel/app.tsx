@@ -4,15 +4,15 @@
 import React, {FC, useState} from 'react';
 import { Formik, Field, Form } from 'formik';
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import MasterList from './json/playerImageLinks.json'
+import MasterList from './json/playerImageLinks2.json'
 import { Team } from '~types/teamLinksTypes';
 import './app.scss'
 
 const currentVersusRep = nodecg.Replicant("currVSRep")
 
 const app:FC = () => {
-  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList.FG)
-  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList.CA)
+  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList['Alpha Team'])
+  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList['Red Falcons'])
 
   function updateRep () {
     const blueArraycopy = Array.from(BlueTeam)
@@ -66,25 +66,17 @@ const app:FC = () => {
         <Form className='team-selection'>
           <label id='blueTeam-label' htmlFor='Blueteam'>Equipo azul</label>
           <Field id='blueTeam' as='select' name='Blueteam'>
-            <option value='9z'>9z</option>
-            <option value='CA'>CA</option>
-            <option value='FG'>FG</option>
-            <option value='INF'>INF</option>
-            <option value='N5R'>N5R</option>
-            <option value='LEV'>LEV</option>
-            <option value='MVG'>MVG</option>
-            <option value='NG'>NG</option>
+            <option value='Alpha Team'>Alpha Team</option>
+            <option value='Team Cruelty'>Team Cruelty</option>
+            <option value='Red Falcons'>Red Falcons</option>
+            <option value='Skull Cracker'>Skull Cracker</option>
           </Field>
           <label id='orangeTeam-label' htmlFor='OrangeTeam'>Equipo Naranja</label>
           <Field id='orangeTeam' as='select' name='Orangeteam'> 
-            <option value='9z'>9z</option>
-            <option value='CA'>CA</option>
-            <option value='FG'>FG</option>
-            <option value='INF'>INF</option>
-            <option value='N5R'>N5R</option>
-            <option value='LEV'>LEV</option>
-            <option value='MVG'>MVG</option>
-            <option value='NG'>NG</option>
+            <option value='Alpha Team'>Alpha Team</option>
+            <option value='Team Cruelty'>Team Cruelty</option>
+            <option value='Red Falcons'>Red Falcons</option>
+            <option value='Skull Cracker'>Skull Cracker</option>
           </Field>
           <button id='submit-button' type='submit'>Actualizar</button>
         </Form>

@@ -4,15 +4,15 @@
 import React, {FC, useState} from 'react';
 import { Formik, Field, Form } from 'formik';
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import MasterList from './json/playerImageLinks2.json'
+import MasterList from './json/playerImageLinks3.json'
 import { Team } from '~types/teamLinksTypes';
 import './app.scss'
 
 const currentVersusRep = nodecg.Replicant("currVSRep")
 
 const app:FC = () => {
-  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList['Alpha Team'])
-  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList['Red Falcons'])
+  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList.Alpha)
+  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList.Alpha)
 
   function updateRep () {
     const blueArraycopy = Array.from(BlueTeam)
@@ -66,17 +66,25 @@ const app:FC = () => {
         <Form className='team-selection'>
           <label id='blueTeam-label' htmlFor='Blueteam'>Equipo azul</label>
           <Field id='blueTeam' as='select' name='Blueteam'>
-            <option value='Alpha Team'>Alpha Team</option>
-            <option value='Team Cruelty'>Team Cruelty</option>
-            <option value='Red Falcons'>Red Falcons</option>
-            <option value='Skull Cracker'>Skull Cracker</option>
+            <option value='Alpha'>Alpha</option>
+            <option value='6K'>6K</option>
+            <option value='Coscu Army'>Coscu Army</option>
+            <option value='Furious'>Furious</option>
+            <option value='Kingdom'>Kingdom</option>
+            <option value='Newstars'>Newstars</option>
+            <option value='Nocturns'>Nocturn</option>
+            <option value='Overknight'>Overknight</option>
           </Field>
           <label id='orangeTeam-label' htmlFor='OrangeTeam'>Equipo Naranja</label>
           <Field id='orangeTeam' as='select' name='Orangeteam'> 
-            <option value='Alpha Team'>Alpha Team</option>
-            <option value='Team Cruelty'>Team Cruelty</option>
-            <option value='Red Falcons'>Red Falcons</option>
-            <option value='Skull Cracker'>Skull Cracker</option>
+            <option value='Alpha'>Alpha</option>
+            <option value='6K'>6K</option>
+            <option value='Coscu Army'>Coscu Army</option>
+            <option value='Furious'>Furious</option>
+            <option value='Kingdom'>Kingdom</option>
+            <option value='Newstars'>Newstars</option>
+            <option value='Nocturns'>Nocturn</option>
+            <option value='Overknight'>Overknight</option>
           </Field>
           <button id='submit-button' type='submit'>Actualizar</button>
         </Form>

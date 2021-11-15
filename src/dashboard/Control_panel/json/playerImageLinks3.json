@@ -27,7 +27,12 @@
 		},
 		{
 			"name": "Olimpo",
-			"link": "",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
 			"color": ""
 		}
   ],
@@ -66,17 +71,22 @@
 			"name": "Coy",
 			"link": "https://www.dropbox.com/s/9r65c44tdee4jpm/Coy.png?raw=1",
 			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
+			"color": ""
 		}
   ],
   "Coscu Army": [
 		{
 			"name": "elflopy",
-			"link": "",
+			"link": "Sin_Foto",
 			"color": ""
 		},
 		{
 			"name": "mich4",
-			"link": "",
+			"link": "Sin_Foto",
 			"color": ""
 		},
 		{
@@ -96,12 +106,17 @@
 		},
 		{
 			"name": "wikS",
-			"link": "",
+			"link": "Sin_Foto",
 			"color": ""
 		},
 		{
 			"name": "Lazing",
 			"link": "https://www.dropbox.com/s/kzh2m2jvlim6ayv/Lazing.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
 			"color": ""
 		}
   ],
@@ -135,6 +150,11 @@
 			"name": "nkt",
 			"link": "https://www.dropbox.com/s/m28u9k1bpr0j36b/NKT.png?raw=1",
 			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
+			"color": ""
 		}
   ],
   "Kingdom": [
@@ -166,6 +186,11 @@
 		{
 			"name": "Gera",
 			"link": "https://www.dropbox.com/s/l98syee2zt8pjv7/Gera.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
 			"color": ""
 		}
   ],
@@ -199,6 +224,11 @@
 			"name": "L1m0n4d4",
 			"link": "https://www.dropbox.com/s/56mgig2pmq9dzz4/Limonada.png?raw=1",
 			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
+			"color": ""
 		}
   ],
   "Nocturns": [
@@ -225,6 +255,11 @@
 		{
 			"name": "Tucu",
 			"link": "https://www.dropbox.com/s/i3bbmjbdo4q4f9v/Tucu.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
 			"color": ""
 		}
   ],
@@ -256,7 +291,155 @@
 		},
 		{
 			"name": "W1nglzz",
-			"link": "",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
+			"color": ""
+		}
+  ],
+  "Chivas": [
+		{
+			"name": "Clipe",
+			"link": "https://www.dropbox.com/s/eyacyb3jjqyfq4f/Clipe.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Cerberus",
+			"link": "https://www.dropbox.com/s/zsnbcv74u1xon5x/Cerberus.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Physicz",
+			"link": "https://www.dropbox.com/s/7ovjcldl7s83d7x/Physicz.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Nhilv",
+			"link": "https://www.dropbox.com/s/tbwy57hbkqrk1t1/NhilV.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Ezpz",
+			"link": "https://www.dropbox.com/s/5t2e9rfaal5sfy8/Ezpz.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
+			"color": ""
+		}
+  ],
+  "Cruelty": [
+		{
+			"name": "Reaper",
+			"link": "https://www.dropbox.com/s/hwqdwcry2o2raby/Reaper.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Unfixed",
+			"link": "https://www.dropbox.com/s/j8pj1b11k7u0rev/Unfixed.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "OeNN",
+			"link": "https://www.dropbox.com/s/e4kwb6oas19ue44/OeN.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Gladiuz",
+			"link": "https://www.dropbox.com/s/whoymx1m9xg6f96/Gladiuz.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Ronny",
+			"link": "https://www.dropbox.com/s/hlj3pv4sn3z5w69/Rony.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Zenotic",
+			"link": "https://www.dropbox.com/s/d3sx50ihx5qlqqw/Zenotic.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
+			"color": ""
+		}
+  ],
+  "Leviatan": [
+		{
+			"name": "Delba",
+			"link": "https://www.dropbox.com/s/rm6raox9mmfv6gm/Delba.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "madeinchina",
+			"link": "https://www.dropbox.com/s/ihhgvoz6o97rebv/Madeinchina.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Garee",
+			"link": "https://www.dropbox.com/s/oj7ba9dsltrht5g/Geere.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Slemds",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "Hazeldorf",
+			"link": "https://www.dropbox.com/s/e1dwbpj8pgcbjxs/Hazeldorf.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Duaert",
+			"link": "https://www.dropbox.com/s/2h4gjh2fw25hycm/Dauert.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "elBarto",
+			"link": "https://www.dropbox.com/s/zoqqf1lnflb9gdi/elBarto.png?raw=1",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
+			"color": ""
+		}
+  ],
+  "Valhalla Legion": [
+		{
+			"name": "Jugador 1",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "Jugador 2",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "Jugador 3",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "Jugador 4",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "Jugador 5",
+			"link": "Sin_Foto",
+			"color": ""
+		},
+		{
+			"name": "Jugador Extra",
+			"link": "Sin_Foto",
 			"color": ""
 		}
   ]

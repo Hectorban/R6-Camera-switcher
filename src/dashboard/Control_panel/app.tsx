@@ -74,6 +74,10 @@ const app:FC = () => {
             <option value='Newstars'>Newstars</option>
             <option value='Nocturns'>Nocturn</option>
             <option value='Overknight'>Overknight</option>
+            <option value='Chivas'>Chivas</option>
+            <option value='Cruelty'>Cruelty</option>
+            <option value='Leviatan'>Leviatan</option>
+            <option value='Valhalla Legion'>Valhalla Legion</option>
           </Field>
           <label id='orangeTeam-label' htmlFor='OrangeTeam'>Equipo Naranja</label>
           <Field id='orangeTeam' as='select' name='Orangeteam'> 
@@ -85,8 +89,12 @@ const app:FC = () => {
             <option value='Newstars'>Newstars</option>
             <option value='Nocturns'>Nocturn</option>
             <option value='Overknight'>Overknight</option>
+            <option value='Chivas'>Chivas</option>
+            <option value='Cruelty'>Cruelty</option>
+            <option value='Leviatan'>Leviatan</option>
+            <option value='Valhalla Legion'>Valhalla Legion</option>
           </Field>
-          <button id='submit-button' type='submit'>Actualizar</button>
+          <button id='submit-button' type='submit'>Actualizar datos</button>
         </Form>
       </Formik>
       </div>

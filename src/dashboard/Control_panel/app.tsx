@@ -4,15 +4,15 @@
 import React, {FC, useState} from 'react';
 import { Formik, Field, Form } from 'formik';
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import MasterList from './json/playerImageLinks3.json'
+import MasterList from './json/playerImageLinks4.json'
 import { Team } from '~types/teamLinksTypes';
 import './app.scss'
 
 const currentVersusRep = nodecg.Replicant("currVSRep")
 
 const app:FC = () => {
-  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList.Alpha)
-  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList.Alpha)
+  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList.Maycam)
+  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList.Maycam)
 
   function updateRep () {
     const blueArraycopy = Array.from(BlueTeam)
@@ -66,33 +66,25 @@ const app:FC = () => {
         <Form className='team-selection'>
           <label id='blueTeam-label' htmlFor='Blueteam'>Equipo azul</label>
           <Field id='blueTeam' as='select' name='Blueteam'>
-            <option value='Alpha'>Alpha</option>
-            <option value='6K'>6K</option>
-            <option value='Coscu Army'>Coscu Army</option>
+            <option value='Maycam'>Maycam</option>
+            <option value='Hawks'>Hawks</option>
+            <option value='Pampas'>Pampas</option>
             <option value='Furious'>Furious</option>
-            <option value='Kingdom'>Kingdom</option>
             <option value='Newstars'>Newstars</option>
-            <option value='Nocturns'>Nocturn</option>
-            <option value='Overknight'>Overknight</option>
-            <option value='Chivas'>Chivas</option>
-            <option value='Cruelty'>Cruelty</option>
             <option value='Leviatan'>Leviatan</option>
-            <option value='Valhalla Legion'>Valhalla Legion</option>
+            <option value='MVG'>MVG</option>
+            <option value='NG'>NG</option>
           </Field>
           <label id='orangeTeam-label' htmlFor='OrangeTeam'>Equipo Naranja</label>
           <Field id='orangeTeam' as='select' name='Orangeteam'> 
-            <option value='Alpha'>Alpha</option>
-            <option value='6K'>6K</option>
-            <option value='Coscu Army'>Coscu Army</option>
+            <option value='Maycam'>Maycam</option>
+            <option value='Hawks'>Hawks</option>
+            <option value='Pampas'>Pampas</option>
             <option value='Furious'>Furious</option>
-            <option value='Kingdom'>Kingdom</option>
             <option value='Newstars'>Newstars</option>
-            <option value='Nocturns'>Nocturn</option>
-            <option value='Overknight'>Overknight</option>
-            <option value='Chivas'>Chivas</option>
-            <option value='Cruelty'>Cruelty</option>
             <option value='Leviatan'>Leviatan</option>
-            <option value='Valhalla Legion'>Valhalla Legion</option>
+            <option value='MVG'>MVG</option>
+            <option value='NG'>NG</option>
           </Field>
           <button id='submit-button' type='submit'>Actualizar datos</button>
         </Form>

@@ -30,8 +30,8 @@ const app:FC = () => {
     return (null)
   }
   const backgroundImages = {
-     Orange: "https://www.dropbox.com/s/nwbp0iliu5n74re/Fondo%20Naranja.png?dl=0",
-     Blue: "https://www.dropbox.com/s/jgs1o1tnuqi39ou/Fondo%20Azul.png?dl=0",
+     Orange: "https://www.dropbox.com/s/nwbp0iliu5n74re/Fondo%20Naranja.png?raw=1",
+     Blue: "https://www.dropbox.com/s/jgs1o1tnuqi39ou/Fondo%20Azul.png?raw=1",
      noPhoto: ""
   }
 

@@ -54,8 +54,8 @@ const app:FC = () => {
       <div className='formulary'>
       <Formik
         initialValues={{
-          Orangeteam: '9z',
-          Blueteam: 'INF'
+          Orangeteam: 'Maycam',
+          Blueteam: 'Maycam'
         }}
         onSubmit={(values) =>{
           const {Orangeteam, Blueteam} = values
@@ -70,7 +70,7 @@ const app:FC = () => {
             <option value='Hawks'>Hawks</option>
             <option value='Pampas'>Pampas</option>
             <option value='Furious'>Furious</option>
-            <option value='Newstars'>Newstars</option>
+            <option value='Newstar'>Newstar</option>
             <option value='Leviatan'>Leviatan</option>
             <option value='MVG'>MVG</option>
             <option value='NG'>NG</option>
@@ -81,7 +81,7 @@ const app:FC = () => {
             <option value='Hawks'>Hawks</option>
             <option value='Pampas'>Pampas</option>
             <option value='Furious'>Furious</option>
-            <option value='Newstars'>Newstars</option>
+            <option value='Newstar'>Newstar</option>
             <option value='Leviatan'>Leviatan</option>
             <option value='MVG'>MVG</option>
             <option value='NG'>NG</option>

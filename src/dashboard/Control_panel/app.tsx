@@ -4,7 +4,7 @@
 import React, {FC, useState} from 'react';
 import { Formik, Field, Form } from 'formik';
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import MasterList from './json/playerImageLinks4.json'
+import MasterList from './json/playerImageLinks5.json'
 import { Team } from '~types/teamLinksTypes';
 import './app.scss'
 

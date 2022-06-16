@@ -11,8 +11,8 @@ import './app.scss'
 const currentVersusRep = nodecg.Replicant("currVSRep")
 
 const app:FC = () => {
-  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList.Maycam)
-  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList.Maycam)
+  const [BlueTeam, setBlueTeam] = useState<Team[]>(MasterList.Hawks)
+  const [OrangeTeam, setOrangeTeam] = useState<Team[]>(MasterList.Hawks)
 
   function updateRep () {
     const blueArraycopy = Array.from(BlueTeam)
@@ -54,8 +54,8 @@ const app:FC = () => {
       <div className='formulary'>
       <Formik
         initialValues={{
-          Orangeteam: 'Maycam',
-          Blueteam: 'Maycam'
+          Orangeteam: 'Maycam Evolve',
+          Blueteam: 'Maycam Evolve'
         }}
         onSubmit={(values) =>{
           const {Orangeteam, Blueteam} = values
@@ -66,25 +66,25 @@ const app:FC = () => {
         <Form className='team-selection'>
           <label id='blueTeam-label' htmlFor='Blueteam'>Equipo azul</label>
           <Field id='blueTeam' as='select' name='Blueteam'>
-            <option value='Maycam'>Maycam</option>
+            <option value='Maycam Evolve'>Maycam Evolve</option>
             <option value='Hawks'>Hawks</option>
-            <option value='Pampas'>Pampas</option>
+            <option value='Uala Pampas'>Uala Pampas</option>
             <option value='Furious'>Furious</option>
             <option value='Newstar'>Newstar</option>
             <option value='Leviatan'>Leviatan</option>
-            <option value='MVG'>MVG</option>
-            <option value='NG'>NG</option>
+            <option value='Malvinas Gaming'>Malvinas Gaming</option>
+            <option value='Isurus'>Isurus</option>
           </Field>
           <label id='orangeTeam-label' htmlFor='OrangeTeam'>Equipo Naranja</label>
           <Field id='orangeTeam' as='select' name='Orangeteam'> 
-            <option value='Maycam'>Maycam</option>
+            <option value='Maycam Evolve'>Maycam Evolve</option>
             <option value='Hawks'>Hawks</option>
-            <option value='Pampas'>Pampas</option>
+            <option value='Uala Pampas'>Uala Pampas</option>
             <option value='Furious'>Furious</option>
             <option value='Newstar'>Newstar</option>
             <option value='Leviatan'>Leviatan</option>
-            <option value='MVG'>MVG</option>
-            <option value='NG'>NG</option>
+            <option value='Malvinas Gaming'>Malvinas Gaming</option>
+            <option value='Isurus'>Isurus</option>
           </Field>
           <button id='submit-button' type='submit'>Actualizar datos</button>
         </Form>
